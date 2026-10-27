@@ -1329,7 +1329,7 @@ function handleAuthSubmit(e) {
       window.history.replaceState(null, '', cleanUrl || '/');
     } catch (e) {}
   } else {
-    if (errDiv) errDiv.textContent = 'Incorrect password. Enter 9048.';
+    if (errDiv) errDiv.textContent = 'Incorrect password.';
     if (pinInput) {
       pinInput.value = '';
       pinInput.focus();
